@@ -249,7 +249,8 @@ img {
     align-items: center;
     height: 112px;
     margin-bottom: 8px;
-    background-color: var(--light-bg-color);
+    
+    background-color: var(--cloud);
     border-radius: 4px;
 }
 
