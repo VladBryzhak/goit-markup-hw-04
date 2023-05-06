@@ -314,6 +314,76 @@ img {
     text-align: center;
 }
 
+.social-list{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.social-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: var(--iris);
+    border-radius: 50%;
+}
+
+.social-link:hover,
+.social-link:focus{
+    background-color: var(--ocean);
+}
+
+.social-icon{
+    fill: var(--cloud);
+}
+
+.social-item{
+    width: 40px;
+    height: 40px;
+}
+
+.customer{
+
+}
+
+.customers-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.customer-item {
+    width: calc((100%-120px) / 6);
+    height: 88px;
+}
+
+.customer-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: var(--light-slate);
+    border: 1px solid var(--light-slate);
+    border-radius: 4px;
+}
+
+.customer-icon {
+    fill: currentColor;
+}
+
+.customer-link:hover,
+.customer-link:focus {
+    border-color: var(--ocean);
+    color: var(--ocean);
+}
+
+.customer-item:hover {
+    border: 1px solid var(--ocean);
+}
 .desc {
     font-size: 16px;
     line-height: 1.5;
@@ -346,6 +416,11 @@ img {
 
 .footer {
     padding: 100px 0;
+    background-color: var(--navy-blue);
+}
+
+.footer-main{
+    margin-right: 120px;
 }
 
 .footer-desc {
@@ -356,13 +431,61 @@ img {
     color: var(--cloud);
 }
 
-.footer {
-    background-color: var(--navy-blue);
+.footer-container{
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-social{
+
+}
+
+.footer-subtitle {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--white);
+}
+
+.footer-social-list {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-social-item{
+    width: 40px;
+    height: 40px;
+}
+
+.footer-social-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: var(--iris);
+    border-radius: 50%;
+}
+
+.footer-social-icon{
+    
+}
+
+.footer-social-icon {
+    fill: var(--cloud);
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+    background-color: var(--green);
 }
 
 .web-studio-link {
     display: inline-block;
     padding: 0;
+    margin-bottom: 16px;
 }
 .web-studio-footer-link{
     display: inline-block;
