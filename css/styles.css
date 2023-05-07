@@ -168,7 +168,6 @@ img {
     margin-right: auto;
     max-width: 1440px;
     background-color: var(--navy-blue);
-    background: linear-gradient(rgba(46, 47, 66, 0.7));
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),
             url(../images/index/hero-section/hero-bg.jpg);
     background-repeat: no-repeat;
@@ -316,6 +315,10 @@ img {
     text-align: center;
 }
 
+.team-desc{
+    padding-bottom: 8px;
+}
+
 .social-list{
     display: flex;
     justify-content: center;
@@ -383,9 +386,6 @@ img {
     color: var(--ocean);
 }
 
-.customer-item:hover {
-    border: 1px solid var(--ocean);
-}
 .desc {
     font-size: 16px;
     line-height: 1.5;
@@ -498,7 +498,6 @@ img {
 .web-studio-link {
     display: inline-block;
     padding: 0;
-    margin-bottom: 16px;
 }
 .web-studio-footer-link{
     display: inline-block;
